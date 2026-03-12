@@ -2,8 +2,8 @@ import test, { devices ,expect} from '@playwright/test'
 
 test.use({
 
-    //...devices['Galaxy S5']
-    ...devices['iPad (gen 11)']
+    ...devices['Galaxy S5']
+    //...devices['iPad (gen 11)']
 
 })
 
